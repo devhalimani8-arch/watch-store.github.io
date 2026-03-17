@@ -45,3 +45,39 @@
 
 </body>
 </html>
+
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #0b3d91;
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background: #001f5b;
+}
+
+nav {
+    text-align: center;
+    padding: 10px;
+    background: #0033a0;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #001f5b;
+}
