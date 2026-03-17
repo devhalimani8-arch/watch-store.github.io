@@ -1,75 +1,44 @@
-# watch-store
-An e-commerce website for selling watches online
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Luxury Watch Store</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Mumbai Indians Fan Website</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
 <header>
-<h1>Luxury Watch Store</h1>
-
-<div class="cart">
-🛒 Cart <span id="cart-count">0</span>
-</div>
-
+    <h1>Mumbai Indians</h1>
+    <p>5-Time IPL Champions 🏆</p>
 </header>
 
-<section class="hero">
-<h2>Premium Watches Collection</h2>
-<p>Find the perfect watch for every moment.</p>
+<nav>
+    <a href="#about">About</a>
+    <a href="#players">Players</a>
+    <a href="#trophies">Trophies</a>
+</nav>
+
+<section id="about">
+    <h2>About Team</h2>
+    <p>Mumbai Indians is one of the most successful teams in the Indian Premier League (IPL).</p>
 </section>
 
-<section class="products">
-
-<div class="product">
-<img src="images/watch1.jpg">
-<h3>Classic Gold Watch</h3>
-<p>$120</p>
-<button onclick="addToCart('Classic Gold Watch',120)">Add to Cart</button>
-</div>
-
-<div class="product">
-<img src="images/watch2.jpg">
-<h3>Luxury Silver Watch</h3>
-<p>$180</p>
-<button onclick="addToCart('Luxury Silver Watch',180)">Add to Cart</button>
-</div>
-
-<div class="product">
-<img src="images/watch3.jpg">
-<h3>Sport Watch</h3>
-<p>$95</p>
-<button onclick="addToCart('Sport Watch',95)">Add to Cart</button>
-</div>
-
-<div class="product">
-<img src="images/watch4.jpg">
-<h3>Diamond Watch</h3>
-<p>$320</p>
-<button onclick="addToCart('Diamond Watch',320)">Add to Cart</button>
-</div>
-
+<section id="players">
+    <h2>Key Players</h2>
+    <ul>
+        <li>Rohit Sharma</li>
+        <li>Jasprit Bumrah</li>
+        <li>Suryakumar Yadav</li>
+    </ul>
 </section>
 
-<section class="cart-section">
-
-<h2>Your Cart</h2>
-
-<ul id="cart-items"></ul>
-
-<h3>Total: $<span id="total">0</span></h3>
-
-<button onclick="checkout()">Checkout</button>
-
+<section id="trophies">
+    <h2>Trophies</h2>
+    <p>MI has won IPL titles in 2013, 2015, 2017, 2019, and 2020.</p>
 </section>
 
 <footer>
-<p>© 2026 Luxury Watch Store</p>
+    <p>© 2026 Mumbai Indians Fan Page</p>
 </footer>
 
 <script src="script.js"></script>
