@@ -81,3 +81,5 @@ footer {
     padding: 10px;
     background: #001f5b;
 }
+
+console.log("Mumbai Indians Website Loaded!");
